@@ -16,6 +16,8 @@ Geometric Solids
     Cylinder
     Cone
     Sphere
+    Torus
+    Prism
     Pyramid
 
 Plane Metrics
@@ -26,22 +28,24 @@ Plane Metrics
     Square
     Trapezoid
     Polygon
+    Ellipse
+    Parallelogram
+    Quadrilateral
 
 Figure Physics
 
-    Density
-    Mass
-    Volume
-    Acceleration
-    Force
+    Dynamics
+    Forces
+    Energy
+    Gravity
+    Kinematics
+    Momentum
 
 Material Properties
 
-    Elasticity
-    Density
-    Hardness
-    Strength
+    properties    
 
+And there are many functions in every Python file.<br>
 For more information about the available functions and figures, see the documentation.
 
 ## Bugs
