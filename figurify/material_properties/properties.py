@@ -1,3 +1,22 @@
+milimetres = "mm"
+square_milimetres = "mm²"
+cubic_milimetres = "mm³"
+
+centimetres = "cm"
+square_centimetres = "cm²"
+cubic_centimetres = "cm³"
+
+decimetres = "dm"
+square_decimetres = "dm²"
+cubic_decimetres = "dm³"
+
+metres = "m"
+square_metres = "m²"
+cubic_metres = "m³"
+
+kilometres = "km"
+square_kilometres = "km²"
+cubic_kilometres = "km³"
 def density(mass, volume):
     return mass / volume
 
