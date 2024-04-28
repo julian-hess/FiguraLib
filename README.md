@@ -62,7 +62,7 @@ This project is licensed under the MIT License. See the license file for more in
 Here's a simple example of how to use Figurify in your Python project:
 
 ```python
-import figurify
+from figurify import *
 
 # Calculate the circumference of a circle with a radius of 5
 circumference = figurify.plane_metrics.circle.circumference(5)
