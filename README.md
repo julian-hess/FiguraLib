@@ -62,14 +62,24 @@ This project is licensed under the MIT License. See the license file for more in
 Here's a simple example of how to use Figurify in your Python project:
 
 ```python
-from figurify import *
+import figurify.units
+import figurify.material_properties
+from figurify.plane_metrics import circle, trapezoid, parallelogram
+from figurify.geometric_solids import cube
 
-# Calculate the circumference of a circle with a radius of 5
-circumference = figurify.plane_metrics.circle.circumference(5)
-print("Circumference of the circle:", circumference)
+print(figurify.material_properties.volume(20, 1.4),
+      figurify.units.cubic_centimetres)
 
-# Calculate the area of a rectangle with a length of 4 and a width of 3
-area = figurify.plane_metrics.rectangle.area(4, 3)
-print("Area of the rectangle:", area)
+print(figurify.plane_metrics.circle.area(5))
+print(figurify.plane_metrics.circle.radius(2.5))
+
+print(figurify.plane_metrics.trapezoid.area(2, 4, 8))
+print(figurify.plane_metrics.trapezoid.height(20, 2, 4))
+
+print(figurify.geometric_solids.cube.volume(5), figurify.units.cubic_centimetres)
+
+area = figurify.plane_metrics.parallelogram.area(5, 10)
+
+print(figurify.units.square_cm_to_square_dm(area), figurify.units.square_decimetres)
 
 # And there's much more, see above.
