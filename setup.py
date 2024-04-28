@@ -6,7 +6,7 @@ setup(
     version='0.1',
     author='Julian Hess',
     description='With figurify you can calculate figures, surfaces and physics.',
-    long_description=pathlib.Path("README.md").read_text(),
+    long_description=pathlib.Path("documentation.md").read_text(),
     long_description_content_type="text/markdown",
     url='https://github.com/julian-hess/Figurify.git',
     packages=find_packages(),
