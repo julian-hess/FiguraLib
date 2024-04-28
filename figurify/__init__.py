@@ -2,6 +2,10 @@ from figurify.material_properties import *
 
 from figurify.units import *
 
+from figurify import plane_metrics
+from figurify import geometric_solids
+from figurify import figure_physics
+
 from figurify.figure_physics.dynamics import *
 from figurify.figure_physics.energy import *
 from figurify.figure_physics.forces import *
