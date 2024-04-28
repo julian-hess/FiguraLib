@@ -6,6 +6,10 @@ from figurify import plane_metrics
 from figurify import geometric_solids
 from figurify import figure_physics
 
+from figurify.plane_metrics import *
+from figurify.geometric_solids import *
+from figurify.figure_physics import *
+
 from figurify.figure_physics.dynamics import *
 from figurify.figure_physics.energy import *
 from figurify.figure_physics.forces import *

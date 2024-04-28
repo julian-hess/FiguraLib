@@ -1,0 +1,281 @@
+# Figurify
+
+# Short explanation
+
+## Explanation
+
+Figurify is a Python library that allows you to perform various calculations related to geometric figures. With Figurify, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
+
+## Installation
+
+You can easily install Figurify using pip:
+
+    pip install figurify
+
+## All files
+
+    material_properties
+    units
+
+Geometric Solids
+
+    Cube
+    Cuboid
+    Cylinder
+    Cone
+    Sphere
+    Torus
+    Prism
+    Pyramid
+
+Plane Metrics
+
+    Circle
+    Rectangle
+    Triangle
+    Square
+    Trapezoid
+    Polygon
+    Ellipse
+    Parallelogram
+    Quadrilateral
+
+Figure Physics
+
+    Dynamics
+    Forces
+    Energy
+    Gravity
+    Kinematics
+    Momentum  
+
+And there are many functions in every Python file.<br>
+For more information about the available functions and figures, see the documentation.
+
+## Bugs
+
+We welcome contributions from other developers! If you've found a bug or want to add a new feature, feel free to create an issue or submit a pull request.<br>
+
+## License
+
+This project is licensed under the MIT License. See the license file for more information.
+
+
+## Usage
+
+Here's a simple example of how to use Figurify in your Python project:
+
+```python
+import figurify
+
+print(figurify.material_properties.volume(20, 1.4),
+      figurify.units.cubic_centimetres)
+
+print(figurify.plane_metrics.circle.area(5))
+print(figurify.plane_metrics.circle.radius(2.5))
+
+print(figurify.plane_metrics.trapezoid.area(2, 4, 8))
+print(figurify.plane_metrics.trapezoid.height(20, 2, 4))
+
+print(figurify.geometric_solids.cube.volume(5), figurify.units.cubic_centimetres)
+
+area = figurify.plane_metrics.parallelogram.area(5, 10)
+
+print(figurify.units.square_cm_to_square_dm(area), figurify.units.square_decimetres)
+
+# And there's much more, see above.
+
+```
+# Documentation
+
+Welcome to the documentation for Figurify. It is a large library for Python with which you can perform calculations for figures, surfaces and also physics calculations. 
+## Importing
+
+You can easily import figurify using:
+
+```python
+import figurify
+```
+
+## Funktions
+
+As you can see above,
+with figurify you can do a lot of calculations on
+figures, surfaces and physics calculations,
+but what you see above are only the
+files in which the functions are.
+So you have a lot of functions to choose from and here
+they are explained step by step.
+
+### plane_metrics
+
+#### circle
+
+###### Funktions:
+
+    circumference
+    area
+    diameter
+    radius
+    arc_length
+    sector_area
+    inscribed_angle
+    central_angle
+    sector_radius
+    sector_angle
+    arc_angle
+    segment_area
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.circle.area(4)
+```
+
+#### ellipse
+
+###### Funktions:
+
+    area
+    perimeter
+    focal_distance
+    eccentricity
+    vertex_distance
+    semi_latus_rectum
+    linear_eccentricity
+    co_vertex_distance
+    focus_distance
+    major_axis_length
+    minor_axis_length
+    semi_major_axis_length
+    semi_minor_axis_length
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.ellipse.area(5, 6)
+```
+
+#### parallelogram
+
+###### Funktions:
+
+    area
+    perimeter
+    diagonal
+    height
+    side_from_area
+    side_from_perimeter
+    angle_between_diagonals
+    acos_safe
+    sin
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.parallelogram.area(4, 9)
+```
+
+#### polygon
+
+###### Funktions:
+
+    perimeter
+    interior_angle
+    apothem
+    area
+    side_length
+    exterior_angle
+    diagonal
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.polygon.area(4, 8)
+```
+
+#### quadrilateral
+
+###### Funktions:
+
+    area
+    scope
+    Noch nicht fertig!!
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.quadrilateral.area(5)
+```
+
+#### rectangle
+
+###### Funktions:
+
+    area
+    scope
+    Noch nicht fertig!
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.rectangle.area(2, 4)
+```
+
+#### trapezoid
+
+###### Funktions:
+
+    area
+    perimeter
+    height
+    side_length
+    base_midline
+    side_from_perimeter
+    base_from_perimeter
+    side_from_area
+    angle_at_base
+    angle_at_top
+    diagonal
+    side_diagonal
+    base_diagonal
+    interior_angle
+    apothem
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.trapezoid.area(2, 2, 4)
+```
+
+#### triangle
+
+###### Funktions:
+
+    area
+    scope
+    Noch nicht fertig!
+
+A code example:
+
+```python
+import figurify
+
+figurify.plane_metrics.triangle.area(2, 4)
+```
+
+### geometric_solids
