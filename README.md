@@ -62,10 +62,7 @@ This project is licensed under the MIT License. See the license file for more in
 Here's a simple example of how to use Figurify in your Python project:
 
 ```python
-import figurify.units
-import figurify.material_properties
-from figurify.plane_metrics import circle, trapezoid, parallelogram
-from figurify.geometric_solids import cube
+import figurify
 
 print(figurify.material_properties.volume(20, 1.4),
       figurify.units.cubic_centimetres)
