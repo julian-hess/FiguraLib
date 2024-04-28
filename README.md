@@ -9,6 +9,10 @@ You can easily install Figurify using pip:
     pip install figurify
 
 ## Supported Calculations
+
+    material_properties
+    units
+
 Geometric Solids
 
     Cube
@@ -39,11 +43,7 @@ Figure Physics
     Energy
     Gravity
     Kinematics
-    Momentum
-
-Material Properties
-
-    properties    
+    Momentum  
 
 And there are many functions in every Python file.<br>
 For more information about the available functions and figures, see the documentation.
