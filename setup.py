@@ -12,7 +12,6 @@ setup(
     description='With figurify you can calculate figures, surfaces and physics.',
     long_description=open("documentation.md").read(),
     long_description_content_type="text/markdown",
-    url='https://github.com/julian-hess/Figurify.git',
     packages=find_packages(),
     project_urls={
         "Source": "https://github.com/julian-hess/Figurify.git"
