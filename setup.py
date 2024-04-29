@@ -1,9 +1,14 @@
 from setuptools import setup, find_packages
 import pathlib
 
+def get_version():
+    with open("VERSION.txt", 'r') as f:
+        version = f.read().strip()
+    return version
+
 setup(
     name='figurify',
-    version='0.1',
+    version=get_version(),
     author='Julian Hess',
     description='With figurify you can calculate figures, surfaces and physics.',
     long_description=pathlib.Path("documentation.md").read_text(),
