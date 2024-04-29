@@ -223,25 +223,37 @@ figurify.plane_metrics.polygon.area(4, 8)
 
 ###### Funktions:
 
+    perimeter
     area
-    scope
-    Noch nicht fertig!!
+    diagonal_length
+    interior_angle
+    semiperimeter
+    height
+    is_parallelogram
+    is_rhombus
+    is_rectangle
+    is_square
 
 A code example:
 
 ```python
 import figurify
 
-figurify.plane_metrics.quadrilateral.area(5)
+figurify.plane_metrics.quadrilateral.area(5, 5, 90)
 ```
 
 #### rectangle
 
 ###### Funktions:
 
+    perimeter
     area
-    scope
-    Noch nicht fertig!
+    diagonal_length
+    is_square
+    is_golden_rectangle
+    interior_angle
+    is_regular
+    is_oblong
 
 A code example:
 
@@ -283,9 +295,16 @@ figurify.plane_metrics.trapezoid.area(2, 2, 4)
 
 ###### Funktions:
 
+    perimeter
     area
-    scope
-    Noch nicht fertig!
+    is_equilateral
+    is_isosceles
+    is_scalene
+    is_right
+    is_acute
+    is_obtuse
+    height
+    semiperimeter
 
 A code example:
 
@@ -296,6 +315,54 @@ figurify.plane_metrics.triangle.area(2, 4)
 ```
 
 ### _geometric_solids_
+
+#### cone
+
+###### Funktions:
+
+    volume
+    surface_area
+    lateral_area
+    base_area
+    slant_height
+    surface_area_with_slant_height
+    volume_with_slant_height
+    lateral_area_with_slant_height
+    half_angle
+    half_angle_degrees
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.cone.volume(4, 12)
+```
+
+#### cube
+
+###### Funktions:
+
+    volume
+    surface_area
+    diagonal_length
+    face_diagonal_length
+    space_diagonal_length
+    inner_surface_area
+    edge_length
+    total_edge_length
+    inner_volume
+    inner_diagonal_length
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.cube.volume(7)
+```
+
+#### cuboid
 
 ### _figure_physics_
 
