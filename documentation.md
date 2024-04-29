@@ -101,8 +101,18 @@ area = figurify.plane_metrics.parallelogram.area(5, 10)
 print(figurify.units.square_cm_to_square_dm(area), figurify.units.square_decimetres)
 
 # And there's much more, see above.
-
 ```
+
+### Output:
+
+    14.285714285714286 cm³
+    78.53975
+    1.25
+    24.0
+    6.666666666666667
+    125 cm³
+    0.5 dm²
+
 # Documentation
 
 Welcome to the documentation for Figurify. It is a large library for Python with which you can perform calculations for figures, surfaces and also physics calculations. 
@@ -364,9 +374,347 @@ figurify.geometric_solids.cube.volume(7)
 
 #### cuboid
 
+###### Funktions:
+
+    volume
+    surface_area
+    diagonal_length
+    face_diagonal_length
+    space_diagonal_length
+    inner_surface_area
+    edge_length
+    total_edge_length
+    inner_volume
+    inner_diagonal_length
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.cuboid.volume(4, 5, 9)
+```
+
+#### cylinder
+
+###### Funktions:
+
+    volume
+    lateral_area
+    surface_area
+    base_area
+    curved_surface_area
+    total_area
+    diagonal_length
+    lateral_surface_area_with_diagonal
+    total_area_with_diagonal
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.cylinder.volume(4, 5)
+```
+
+#### prism
+
+###### Funktions:
+
+    volume
+    surface_area
+    lateral_area
+    base_area
+    total_area
+    diagonal_length
+    lateral_surface_area_with_diagonal
+    total_area_with_diagonal
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.prism.volume(30, 8)
+```
+
+#### pyramid
+
+###### Funktions:
+
+    volume
+    surface_area
+    lateral_area
+    base_area
+    total_area
+    apothem
+    surface_area_with_apothem
+    total_area_with_apothem
+    slant_height
+    total_edge_length
+    inner_surface_area
+    inner_volume
+    inner_diagonal_length
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.pyramid.volume(20, 9)
+```
+
+#### sphere
+
+###### Funktions:
+
+    volume
+    surface_area
+    circumference
+    cross_sectional_area
+    spherical_cap_volume
+    spherical_cap_surface_area
+    spherical_sector_volume
+    spherical_sector_surface_area
+    chord_length
+    great_circle_distance
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.sphere.volume(7)
+```
+
+#### torus
+
+###### Funktions:
+
+    volume
+    surface_area
+    major_circumference
+    minor_circumference
+    mean_radius
+    cross_sectional_area
+    ring_volume
+    ring_surface_area
+    inner_radius
+    inner_circumference
+
+A code example:
+
+```python
+import figurify
+
+figurify.geometric_solids.torus.volume(5, 4)
+```
+
 ### _figure_physics_
 
-#### material_properties
+#### dynamics
 
-#### units
+###### Funktions:
 
+    velocity
+    acceleration
+    displacement
+    force
+    momentum
+    impulse
+    kinetic_energy
+    gravitational_potential_energy
+    work
+    power
+
+A code example:
+
+```python
+import figurify
+
+figurify.figure_physics.dynamics.velocity(30, 3.6)
+```
+
+#### energy
+
+###### Funktions:
+
+    kinetic_energy
+    gravitational_potential_energy
+    elastic_potential_energy
+    mechanical_energy
+    thermal_energy
+    electrical_energy
+    sound_energy
+
+A code example:
+
+```python
+import figurify
+
+figurify.figure_physics.energy.sound_energy(400, 800)
+```
+
+#### forces
+
+###### Funktions:
+
+    force
+    weight
+    tension
+    friction_coefficient
+    gravitational_force
+    spring_force
+    buoyant_force
+    magnetic_force
+
+A code example:
+
+```python
+import figurify
+
+figurify.figure_physics.forces.force(20, 7)
+```
+
+#### gravity
+
+###### Funktions:
+
+    gravitational_force
+    gravitational_acceleration
+    gravitational_potential_energy
+    escape_velocity
+    orbital_period
+
+A code example:
+
+```python
+import figurify
+
+figurify.figure_physics.gravity.orbital_period(3, 70)
+```
+
+#### kinematics
+
+###### Funktions:
+
+    average_speed
+    average_velocity
+    acceleration
+    final_velocity
+    displacement
+    final_velocity_squared
+
+A code example:
+
+```python
+import figurify
+
+figurify.figure_physics.kinematics.acceleration(20, 50, 80)
+```
+
+#### momentum
+
+###### Funktions:
+
+    momentum
+    impulse
+    kinetic_energy
+    velocity
+    collision_velocity
+    recoil_velocity
+
+A code example:
+
+```python
+import figurify
+
+figurify.figure_physics.momentum.momentum(30, 12)
+```
+
+### material_properties
+
+###### Funktions:
+
+    density
+    mass
+    volume
+    flexibility
+    strength
+    melting_point
+    boiling_point
+    conductivity
+    refractive_index
+
+A code example:
+
+```python
+import figurify
+
+figurify.material_properties.density(20, 40)
+```
+
+### units
+
+###### Funktions:
+
+    milimetres_to_centimetres
+    centimetres_to_decimetres
+    decimetres_to_metres
+    metres_to_kilometres
+    centimetres_to_milimetres
+    decimetres_to_centimetres
+    metres_to_decimetres
+    kilometres_to_metres
+    square_mm_to_square_cm
+    square_cm_to_square_dm
+    square_dm_to_square_m
+    square_m_to_square_km
+    square_cm_to_square_mm
+    square_dm_to_square_cm
+    square_m_to_square_dm
+    square_km_to_square_m
+    cubic_mm_to_cubic_cm
+    cubic_cm_to_cubic_dm
+    cubic_dm_to_cubic_m
+    cubic_m_to_cubic_km
+    cubic_cm_to_cubic_mm
+    cubic_dm_to_cubic_cm
+    cubic_m_to_cubic_dm
+    cubic_km_to_cubic_m
+
+A code example:
+
+```python
+import figurify
+
+figurify.units.square_cm_to_square_dm(30)
+```
+
+###### Variables:
+
+    milimetres
+    square_milimetres
+    cubic_milimetres
+    centimetres
+    square_centimetres
+    cubic_centimetres
+    decimetres
+    square_decimetres
+    cubic_decimetres
+    metres
+    square_metres
+    cubic_metres
+    kilometres
+    square_kilometres
+    cubic_kilometres
+    grams
+    litres
+
+A code example:
+
+```python
+import figurify
+
+centimetres = (figurify.units.decimetres_to_centimetres(400), figurify.units.centimetres)
+```
