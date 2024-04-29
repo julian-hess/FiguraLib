@@ -60,6 +60,23 @@ We welcome contributions from other developers! If you've found a bug or want to
 
 This project is licensed under the MIT License. See the license file for more information.
 
+**Permissions:**
+
+* Commercial use
+* Modification
+* Distribution
+* Private use
+
+**Limitations**:
+
+* Liability
+* Warranty
+
+**Conditions**:
+
+* License and copyright notice
+
+**_It is licensed under Copyright (c) 2024 Julian Hess_**
 
 ## Usage
 
@@ -107,7 +124,7 @@ files in which the functions are.
 So you have a lot of functions to choose from and here
 they are explained step by step.
 
-### plane_metrics
+### _plane_metrics_
 
 #### circle
 
@@ -278,4 +295,11 @@ import figurify
 figurify.plane_metrics.triangle.area(2, 4)
 ```
 
-### geometric_solids
+### _geometric_solids_
+
+### _figure_physics_
+
+#### material_properties
+
+#### units
+
