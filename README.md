@@ -1,6 +1,6 @@
 ## Explanation
 
-**Figurify** is a **Python library** that allows you to perform various calculations related to geometric figures. With Figurify, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
+Figurify is a Python library that allows you to perform various calculations related to geometric figures. With Figurify, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
 
 ## Installation
 
@@ -56,10 +56,38 @@ We welcome contributions from other developers! If you've found a bug or want to
 
 This project is licensed under the MIT License. See the license file for more information.
 
+**Permissions:**
+
+* Commercial use
+* Modification
+* Distribution
+* Private use
+
+**Limitations**:
+
+* Liability
+* Warranty
+
+**Conditions**:
+
+* License and copyright notice
+
+**_It is licensed under Copyright (c) 2024 Julian Hess_**
+
 
 ## Usage
 
 Here's a simple example of how to use Figurify in your Python project:
+
+### Importing
+
+You can easily import figurify using:
+
+```python
+import figurify
+```
+
+A code example:
 
 ```python
 import figurify
