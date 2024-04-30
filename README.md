@@ -77,7 +77,7 @@ This project is licensed under the MIT License. See the license file for more in
 
 ## Usage
 
-Here's a simple example of how to use Figurify in your Python project:
+Here is a simple example of how to use Figurify in your Python project:
 
 ### Importing
 
