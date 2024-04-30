@@ -8,7 +8,7 @@ You can easily install Figurify using pip:
 
     pip install figurify
 
-## Supported Calculations
+## All files
 
     material_properties
     units
