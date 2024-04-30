@@ -80,3 +80,14 @@ area = figurify.plane_metrics.parallelogram.area(5, 10)
 print(figurify.units.square_cm_to_square_dm(area), figurify.units.square_decimetres)
 
 # And there's much more, see above.
+```
+
+### Output:
+
+    14.285714285714286 cm³
+    78.53975
+    1.25
+    24.0
+    6.666666666666667
+    125 cm³
+    0.5 dm²
