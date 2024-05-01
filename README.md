@@ -1,3 +1,5 @@
+# Explanation
+
 FiguraLib is a Python library that allows you to perform various calculations related to geometric figures. With FiguraLib, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
 
 ## Installation
