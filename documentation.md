@@ -1,12 +1,12 @@
 # Short explanation
 
-Figurify is a Python library that allows you to perform various calculations related to geometric figures. With Figurify, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
+FiguraLib is a Python library that allows you to perform various calculations related to geometric figures. With FiguraLib, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
 
 ## Installation
 
-You can easily install Figurify using pip:
+You can easily install FiguraLib using pip:
 
-    pip install figurify
+    pip install figuralib
 
 ## All files
 
@@ -76,25 +76,25 @@ This project is licensed under the MIT License. See the license file for more in
 
 ## Usage
 
-Here's a simple example of how to use Figurify in your Python project:
+Here's a simple example of how to use FiguraLib in your Python project:
 
 ```python
-import figurify
+import figuralib
 
-print(figurify.material_properties.volume(20, 1.4),
-      figurify.units.cubic_centimetres)
+print(figuralib.material_properties.volume(20, 1.4),
+      figuralib.units.cubic_centimetres)
 
-print(figurify.plane_metrics.circle.area(5))
-print(figurify.plane_metrics.circle.radius(2.5))
+print(figuralib.plane_metrics.circle.area(5))
+print(figuralib.plane_metrics.circle.radius(2.5))
 
-print(figurify.plane_metrics.trapezoid.area(2, 4, 8))
-print(figurify.plane_metrics.trapezoid.height(20, 2, 4))
+print(figuralib.plane_metrics.trapezoid.area(2, 4, 8))
+print(figuralib.plane_metrics.trapezoid.height(20, 2, 4))
 
-print(figurify.geometric_solids.cube.volume(5), figurify.units.cubic_centimetres)
+print(figuralib.geometric_solids.cube.volume(5), figuralib.units.cubic_centimetres)
 
-area = figurify.plane_metrics.parallelogram.area(5, 10)
+area = figuralib.plane_metrics.parallelogram.area(5, 10)
 
-print(figurify.units.square_cm_to_square_dm(area), figurify.units.square_decimetres)
+print(figuralib.units.square_cm_to_square_dm(area), figuralib.units.square_decimetres)
 
 # And there's much more, see above.
 ```
@@ -111,19 +111,19 @@ print(figurify.units.square_cm_to_square_dm(area), figurify.units.square_decimet
 
 # Documentation
 
-Welcome to the documentation for Figurify. It is a large library for Python with which you can perform calculations for figures, surfaces and also physics calculations. 
+Welcome to the documentation for FiguraLib. It is a large library for Python with which you can perform calculations for figures, surfaces and also physics calculations. 
 ## Importing
 
-You can easily import figurify using:
+You can easily import FiguraLib using:
 
 ```python
-import figurify
+import figuralib
 ```
 
 ## Funktions
 
 As you can see above,
-with figurify you can do a lot of calculations on
+with FiguraLib you can do a lot of calculations on
 figures, surfaces and physics calculations,
 but what you see above are only the
 files in which the functions are.
@@ -152,9 +152,9 @@ they are explained step by step.
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.circle.area(4)
+figuralib.plane_metrics.circle.area(4)
 ```
 
 #### ellipse
@@ -178,9 +178,9 @@ figurify.plane_metrics.circle.area(4)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.ellipse.area(5, 6)
+figuralib.plane_metrics.ellipse.area(5, 6)
 ```
 
 #### parallelogram
@@ -200,9 +200,9 @@ figurify.plane_metrics.ellipse.area(5, 6)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.parallelogram.area(4, 9)
+figuralib.plane_metrics.parallelogram.area(4, 9)
 ```
 
 #### polygon
@@ -220,9 +220,9 @@ figurify.plane_metrics.parallelogram.area(4, 9)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.polygon.area(4, 8)
+figuralib.plane_metrics.polygon.area(4, 8)
 ```
 
 #### quadrilateral
@@ -243,9 +243,9 @@ figurify.plane_metrics.polygon.area(4, 8)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.quadrilateral.area(5, 5, 90)
+figuralib.plane_metrics.quadrilateral.area(5, 5, 90)
 ```
 
 #### rectangle
@@ -264,9 +264,9 @@ figurify.plane_metrics.quadrilateral.area(5, 5, 90)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.rectangle.area(2, 4)
+figuralib.plane_metrics.rectangle.area(2, 4)
 ```
 
 #### trapezoid
@@ -292,9 +292,9 @@ figurify.plane_metrics.rectangle.area(2, 4)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.trapezoid.area(2, 2, 4)
+figuralib.plane_metrics.trapezoid.area(2, 2, 4)
 ```
 
 #### triangle
@@ -315,9 +315,9 @@ figurify.plane_metrics.trapezoid.area(2, 2, 4)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.plane_metrics.triangle.area(2, 4)
+figuralib.plane_metrics.triangle.area(2, 4)
 ```
 
 ### _geometric_solids_
@@ -340,9 +340,9 @@ figurify.plane_metrics.triangle.area(2, 4)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.cone.volume(4, 12)
+figuralib.geometric_solids.cone.volume(4, 12)
 ```
 
 #### cube
@@ -363,9 +363,9 @@ figurify.geometric_solids.cone.volume(4, 12)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.cube.volume(7)
+figuralib.geometric_solids.cube.volume(7)
 ```
 
 #### cuboid
@@ -386,9 +386,9 @@ figurify.geometric_solids.cube.volume(7)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.cuboid.volume(4, 5, 9)
+figuralib.geometric_solids.cuboid.volume(4, 5, 9)
 ```
 
 #### cylinder
@@ -408,9 +408,9 @@ figurify.geometric_solids.cuboid.volume(4, 5, 9)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.cylinder.volume(4, 5)
+figuralib.geometric_solids.cylinder.volume(4, 5)
 ```
 
 #### prism
@@ -429,9 +429,9 @@ figurify.geometric_solids.cylinder.volume(4, 5)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.prism.volume(30, 8)
+figuralib.geometric_solids.prism.volume(30, 8)
 ```
 
 #### pyramid
@@ -455,9 +455,9 @@ figurify.geometric_solids.prism.volume(30, 8)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.pyramid.volume(20, 9)
+figuralib.geometric_solids.pyramid.volume(20, 9)
 ```
 
 #### sphere
@@ -478,9 +478,9 @@ figurify.geometric_solids.pyramid.volume(20, 9)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.sphere.volume(7)
+figuralib.geometric_solids.sphere.volume(7)
 ```
 
 #### torus
@@ -501,9 +501,9 @@ figurify.geometric_solids.sphere.volume(7)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.geometric_solids.torus.volume(5, 4)
+figuralib.geometric_solids.torus.volume(5, 4)
 ```
 
 ### _figure_physics_
@@ -526,9 +526,9 @@ figurify.geometric_solids.torus.volume(5, 4)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.figure_physics.dynamics.velocity(30, 3.6)
+figuralib.figure_physics.dynamics.velocity(30, 3.6)
 ```
 
 #### energy
@@ -546,9 +546,9 @@ figurify.figure_physics.dynamics.velocity(30, 3.6)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.figure_physics.energy.sound_energy(400, 800)
+figuralib.figure_physics.energy.sound_energy(400, 800)
 ```
 
 #### forces
@@ -567,9 +567,9 @@ figurify.figure_physics.energy.sound_energy(400, 800)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.figure_physics.forces.force(20, 7)
+figuralib.figure_physics.forces.force(20, 7)
 ```
 
 #### gravity
@@ -585,9 +585,9 @@ figurify.figure_physics.forces.force(20, 7)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.figure_physics.gravity.orbital_period(3, 70)
+figuralib.figure_physics.gravity.orbital_period(3, 70)
 ```
 
 #### kinematics
@@ -604,9 +604,9 @@ figurify.figure_physics.gravity.orbital_period(3, 70)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.figure_physics.kinematics.acceleration(20, 50, 80)
+figuralib.figure_physics.kinematics.acceleration(20, 50, 80)
 ```
 
 #### momentum
@@ -623,9 +623,9 @@ figurify.figure_physics.kinematics.acceleration(20, 50, 80)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.figure_physics.momentum.momentum(30, 12)
+figuralib.figure_physics.momentum.momentum(30, 12)
 ```
 
 ### material_properties
@@ -645,9 +645,9 @@ figurify.figure_physics.momentum.momentum(30, 12)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.material_properties.density(20, 40)
+figuralib.material_properties.density(20, 40)
 ```
 
 ### units
@@ -682,9 +682,9 @@ figurify.material_properties.density(20, 40)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-figurify.units.square_cm_to_square_dm(30)
+figuralib.units.square_cm_to_square_dm(30)
 ```
 
 ###### Variables:
@@ -710,7 +710,7 @@ figurify.units.square_cm_to_square_dm(30)
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-centimetres = (figurify.units.decimetres_to_centimetres(400), figurify.units.centimetres)
+centimetres = (figuralib.units.decimetres_to_centimetres(400), figuralib.units.centimetres)
 ```

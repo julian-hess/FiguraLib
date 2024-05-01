@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Figurify.iml" filepath="$PROJECT_DIR$/.idea/Figurify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FiguraLib/.idea/FiguraLib.iml" filepath="$PROJECT_DIR$/../FiguraLib/.idea/FiguraLib.iml" />
     </modules>
   </component>
 </project>

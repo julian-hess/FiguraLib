@@ -6,10 +6,10 @@ def get_version():
     return version
 
 setup(
-    name='figurify',
+    name='figuralib',
     version=get_version(),
     author='Julian Hess',
-    description='With figurify you can calculate figures, surfaces and physics.',
+    description='With figuralib you can calculate figures, surfaces and physics.',
     long_description=open("documentation.md").read(),
     long_description_content_type="text/markdown",
     packages=find_packages(),
