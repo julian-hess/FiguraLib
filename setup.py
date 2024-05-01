@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     project_urls={
-        "Source": "https://github.com/julian-hess/Figurify.git"
+        "GitHub": "https://github.com/julian-hess/FiguraLib.git"
     },
     classifiers=[
         'Programming Language :: Python :: 3.11',
