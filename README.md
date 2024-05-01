@@ -1,12 +1,12 @@
 ## Explanation
 
-Figurify is a Python library that allows you to perform various calculations related to geometric figures. With Figurify, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
+FiguraLib is a Python library that allows you to perform various calculations related to geometric figures. With FiguraLib, you can quickly and easily calculate properties such as perimeter, area, angles, and more for various geometric shapes.
 
 ## Installation
 
-You can easily install Figurify using pip:
+You can easily install FiguraLib using pip:
 
-    pip install figurify
+    pip install figuralib
 
 ## All files
 
@@ -77,35 +77,35 @@ This project is licensed under the MIT License. See the license file for more in
 
 ## Usage
 
-Here's a simple example of how to use Figurify in your Python project:
+Here's a simple example of how to use FiguraLib in your Python project:
 
 ### Importing
 
-You can easily import figurify using:
+You can easily import FiguraLib using:
 
 ```python
-import figurify
+import figuralib
 ```
 
 A code example:
 
 ```python
-import figurify
+import figuralib
 
-print(figurify.material_properties.volume(20, 1.4),
-      figurify.units.cubic_centimetres)
+print(figuralib.material_properties.volume(20, 1.4),
+      figuralib.units.cubic_centimetres)
 
-print(figurify.plane_metrics.circle.area(5))
-print(figurify.plane_metrics.circle.radius(2.5))
+print(figuralib.plane_metrics.circle.area(5))
+print(figuralib.plane_metrics.circle.radius(2.5))
 
-print(figurify.plane_metrics.trapezoid.area(2, 4, 8))
-print(figurify.plane_metrics.trapezoid.height(20, 2, 4))
+print(figuralib.plane_metrics.trapezoid.area(2, 4, 8))
+print(figuralib.plane_metrics.trapezoid.height(20, 2, 4))
 
-print(figurify.geometric_solids.cube.volume(5), figurify.units.cubic_centimetres)
+print(figuralib.geometric_solids.cube.volume(5), figuralib.units.cubic_centimetres)
 
-area = figurify.plane_metrics.parallelogram.area(5, 10)
+area = figuralib.plane_metrics.parallelogram.area(5, 10)
 
-print(figurify.units.square_cm_to_square_dm(area), figurify.units.square_decimetres)
+print(figuralib.units.square_cm_to_square_dm(area), figuralib.units.square_decimetres)
 
 # And there's much more, see above.
 ```
