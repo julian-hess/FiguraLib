@@ -10,7 +10,7 @@ def displacement(initial_velocity, time, acceleration):
 def force(mass, acceleration):
     return mass * acceleration
 
-def momentum(mass, velocity):
+def inertia(mass, velocity):
     return mass * velocity
 
 def impulse(force, time):

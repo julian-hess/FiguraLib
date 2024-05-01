@@ -1,4 +1,4 @@
-def momentum(mass, velocity):
+def inertia(mass, velocity):
     return mass * velocity
 
 def impulse(force, time):
